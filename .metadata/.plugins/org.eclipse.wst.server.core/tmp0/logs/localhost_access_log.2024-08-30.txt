@@ -1,0 +1,7 @@
+127.0.0.1 - - [30/Aug/2024:10:52:10 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [30/Aug/2024:10:52:12 +0530] "GET /SMEVCS/index.jsp HTTP/1.1" 200 8659
+0:0:0:0:0:0:0:1 - - [30/Aug/2024:10:52:12 +0530] "GET /SMEVCS/assets/img/hero-bg.jpg HTTP/1.1" 404 792
+0:0:0:0:0:0:0:1 - - [30/Aug/2024:10:52:28 +0530] "GET /SMEVCS/assets/vendor/swiper/swiper-bundle.min.js.map HTTP/1.1" 404 819
+0:0:0:0:0:0:0:1 - - [30/Aug/2024:10:52:28 +0530] "GET /SMEVCS/assets/vendor/purecounter/purecounter.js.map HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [30/Aug/2024:10:52:28 +0530] "GET /SMEVCS/assets/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 451427
+0:0:0:0:0:0:0:1 - - [30/Aug/2024:10:52:28 +0530] "GET /SMEVCS/assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 331017
