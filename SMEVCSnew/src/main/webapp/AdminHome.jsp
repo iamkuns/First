@@ -37,7 +37,7 @@
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="logo">
-        <h1><a href="index.jsp"><span>RUDRAKSH Power</span></a></h1>
+        <h1><a href="index.jsp"><span>EV ChargeWay</span></a></h1>
       </div>
 
       <nav id="navbar" class="navbar">
@@ -63,7 +63,7 @@
       <div class="row justify-content-between">
         <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
           <div data-aos="zoom-out">
-            <h1>RUDRAKSH Power Charging Station</h1>
+            <h1>EV ChargeWay Charging Station</h1>
           </div>
         </div>
         <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
@@ -109,7 +109,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>RUDRAKSH Power 2021</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>EV ChargeWay Power 2024</span></strong>. All Rights Reserved
       </div>
       
     </div>

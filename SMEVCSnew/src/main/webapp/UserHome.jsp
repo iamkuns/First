@@ -37,7 +37,7 @@
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="logo">
-        <h1><a href="index.jsp"><span>Charge it</span></a></h1>
+        <h1><a href="index.jsp"><span>EV ChargeWay</span></a></h1>
       </div>
 
       <nav id="navbar" class="navbar">
@@ -60,6 +60,7 @@
     <div class="container" data-aos="fade-up">
       <div class="row">
         <div class="col-lg-6">
+          <button id="connect-button" class="btn btn-primary">Connect Bluetooth</button>
           <p id="battery-level">Battery Level: --%</p>
           <p id="battery-temperature">Battery Temperature: --°C</p>
         </div>
@@ -115,7 +116,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Charge it 2021</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>EV ChargeWay 2024</span></strong>. All Rights Reserved
       </div>
       
     </div>
@@ -135,25 +136,48 @@
   <!-- Self Main JS File -->
   <script src="assets/js/main.js"></script>
   
-  <!-- Fetch battery data from ESP32 API -->
+<!-- Web Bluetooth Script -->
   <script>
-    async function fetchBatteryData() {
-      try {
-        const response = await fetch('http://your-esp32-ip-address/data'); // Adjust the URL
-        const data = await response.json();
+    const serviceUUID = "4fafc201-1fb5-459e-8fcc-c5c9c331914b";
+    const characteristicUUID = "beb5483e-36e1-4688-b7f5-ea07361b26a8";
 
-        // Update the battery level and temperature in the DOM
-        document.getElementById('battery-level').textContent = `Battery Level: ${data.batteryLevel}%`;
-        document.getElementById('battery-temperature').textContent = `Battery Temperature: ${data.temperature}°C`;
+    async function connectToDevice() {
+      try {
+        // Request the BLE device
+        const device = await navigator.bluetooth.requestDevice({
+          filters: [{ services: [serviceUUID] }]
+        });
+
+        // Connect to the GATT server
+        const server = await device.gatt.connect();
+
+        // Get the service and characteristic
+        const service = await server.getPrimaryService(serviceUUID);
+        const characteristic = await service.getCharacteristic(characteristicUUID);
+
+        // Subscribe to characteristic notifications
+        characteristic.startNotifications();
+        characteristic.addEventListener('characteristicvaluechanged', handleCharacteristicValueChanged);
+
+        console.log('Connected to ESP32 BLE device');
       } catch (error) {
-        console.error('Error fetching battery data:', error);
+        console.error('Error connecting to BLE device:', error);
       }
     }
 
-    // Fetch data every 5 seconds
-    setInterval(fetchBatteryData, 5000);
-  </script>
+    // Handle the characteristic value changed event
+    function handleCharacteristicValueChanged(event) {
+      const value = new TextDecoder().decode(event.target.value);
+      const data = JSON.parse(value);
 
+      // Update the battery level and temperature in the DOM
+      document.getElementById('battery-level').textContent = `Battery Level: ${data.batteryLevel}%`;
+      document.getElementById('battery-temperature').textContent = `Battery Temperature: ${data.temperature}°C`;
+    }
+
+    // Set up the connect button click event
+    document.getElementById('connect-button').addEventListener('click', connectToDevice);
+  </script>
 </body>
 
 </html>

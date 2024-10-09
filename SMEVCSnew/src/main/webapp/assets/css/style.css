@@ -714,13 +714,14 @@ section {
   color: #6c757d; /* Muted text color */
 }
 
-.about .video-box {
-  background: url("../img/about.png") center center no-repeat;
-  background-size: cover; /* Full cover background image */
-  min-height: 320px;
-  position: relative;
-  border-radius: 10px; /* Rounded corners */
+.video-box {
+  display: flex; /* Ensures the use of flexbox */
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  width: 100%; /* Optional: Sets width to take full space */
+  height: 100%; /* Optional: Sets height to take full space */
 }
+
 
 .about .play-btn {
   width: 100px;

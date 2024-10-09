@@ -37,7 +37,7 @@
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="logo">
-        <h1><a href="index.jsp"><span>RUDRAKSH Power</span></a></h1>
+        <h1><a href="index.jsp"><span>EV ChargeWay</span></a></h1>
       </div>
 
       <nav id="navbar" class="navbar">
@@ -63,11 +63,11 @@
       <div class="row justify-content-between">
         <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
           <div data-aos="zoom-out">
-            <h1>RUDRAKSH Power Charging Station</h1>
+            <h1>EV ChargeWay Charging Station</h1>
           </div>
         </div>
         <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
-          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+          <img src="assets/img/hero-img-Copy.png" class="img-fluid animated" alt="">
         </div>
       </div>
     </div>
@@ -97,7 +97,7 @@
       <div class="container-fluid">
 
         <div class="row">
-          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch">
+          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-center">
           </div>
 
           <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
@@ -114,12 +114,12 @@
               <h4 class="title"><a href="">Easy Slot Booking</a></h4>
               <p class="description">Book your Slot easily and get unique barcode for your Booking</p>
             </div>
-
-            <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
-              <div class="icon"><i class="bx bx-atom"></i></div>
-              <h4 class="title"><a href="">Solve Queries with our Smart ChatBot</a></h4>
-              <p class="description">Our smart AI charbot will help you solving your Queries easily and Quickly </p>
-            </div>
+			<div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
+  				<div class="icon"><i class="bx bx-battery"></i></div>
+  				<h4 class="title"><a href="">Smart Battery Monitoring</a></h4>
+  				<p class="description">Real-time battery status and temperature tracking for efficient management and safety</p>
+			</div>
+			
 
           </div>
         </div>
@@ -147,19 +147,19 @@
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>A108 Garware Street, KarveNagar, Pune 411052</p>
+                <p>G.H.Raisoni College of Engineering ,Pune, 412207</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>rudraksh@gmail.com</p>
+                <p>EVChargeWay@gmail.com</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+91 9523648956s</p>
+                <p>+91 8007605447</p>
               </div>
 
             </div>
@@ -208,7 +208,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>RUDRAKSH Power 2023</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>EV ChargeWay 2024</span></strong>. All Rights Reserved
       </div>
       
     </div>

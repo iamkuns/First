@@ -1,0 +1,9 @@
+127.0.0.1 - - [05/Oct/2024:11:27:43 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [05/Oct/2024:11:27:46 +0530] "GET /SMEVCSnew/UserHome.jsp HTTP/1.1" 200 6655
+0:0:0:0:0:0:0:1 - - [05/Oct/2024:11:27:47 +0530] "GET /SMEVCSnew/assets/img/hero-bg.jpg HTTP/1.1" 404 795
+0:0:0:0:0:0:0:1 - - [05/Oct/2024:11:28:42 +0530] "GET /SMEVCSnew/UserHome.jsp HTTP/1.1" 200 6656
+0:0:0:0:0:0:0:1 - - [05/Oct/2024:11:28:43 +0530] "GET /SMEVCSnew/UserHome.jsp HTTP/1.1" 200 6656
+0:0:0:0:0:0:0:1 - - [05/Oct/2024:11:29:59 +0530] "GET /SMEVCSnew/UserHome.jsp HTTP/1.1" 200 6656
+0:0:0:0:0:0:0:1 - - [05/Oct/2024:11:34:14 +0530] "GET /SMEVCSnew/UserHome.jsp HTTP/1.1" 200 6656
+0:0:0:0:0:0:0:1 - - [05/Oct/2024:11:34:14 +0530] "GET /SMEVCSnew/assets/img/hero-bg.jpg HTTP/1.1" 404 795
+0:0:0:0:0:0:0:1 - - [05/Oct/2024:11:34:14 +0530] "GET /SMEVCSnew/assets/img/hero-bg.jpg HTTP/1.1" 404 795

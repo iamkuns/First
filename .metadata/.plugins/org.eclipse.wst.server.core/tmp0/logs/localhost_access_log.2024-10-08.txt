@@ -1,0 +1,12 @@
+127.0.0.1 - - [08/Oct/2024:23:04:18 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [08/Oct/2024:23:04:18 +0530] "GET /SMEVCSnew/ HTTP/1.1" 200 8628
+0:0:0:0:0:0:0:1 - - [08/Oct/2024:23:04:19 +0530] "GET /SMEVCSnew/assets/css/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Oct/2024:23:04:19 +0530] "GET /SMEVCSnew/assets/img/hero-bg.jpg HTTP/1.1" 404 795
+0:0:0:0:0:0:0:1 - - [08/Oct/2024:23:04:22 +0530] "GET /SMEVCSnew/UserLogin.jsp HTTP/1.1" 200 5416
+0:0:0:0:0:0:0:1 - - [08/Oct/2024:23:04:40 +0530] "POST /SMEVCSnew/UserLoginController HTTP/1.1" 200 99
+0:0:0:0:0:0:0:1 - - [08/Oct/2024:23:04:41 +0530] "GET /SMEVCSnew/UserHome.jsp HTTP/1.1" 200 6656
+0:0:0:0:0:0:0:1 - - [08/Oct/2024:23:04:45 +0530] "GET /SMEVCSnew/assets/vendor/purecounter/purecounter.js.map HTTP/1.1" 404 821
+0:0:0:0:0:0:0:1 - - [08/Oct/2024:23:04:45 +0530] "GET /SMEVCSnew/assets/vendor/swiper/swiper-bundle.min.js.map HTTP/1.1" 404 822
+0:0:0:0:0:0:0:1 - - [08/Oct/2024:23:04:45 +0530] "GET /SMEVCSnew/assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1" 200 331017
+0:0:0:0:0:0:0:1 - - [08/Oct/2024:23:04:45 +0530] "GET /SMEVCSnew/assets/vendor/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 451427
+0:0:0:0:0:0:0:1 - - [08/Oct/2024:23:05:38 +0530] "GET /SMEVCSnew/assets/vendor/swiper/swiper-bundle.min.js.map HTTP/1.1" 404 822

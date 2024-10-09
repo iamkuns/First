@@ -48,15 +48,13 @@ function myFunction() {
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="logo">
-        <h1><a href="index.jsp"><span>Charge it</span></a></h1>
+        <h1><a href="index.jsp"><span>EV ChargeWay</span></a></h1>
       </div>
 
       <nav id="navbar" class="navbar">
       <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-         <li><a class="nav-link scrollto " href="#about">About</a></li>
-         <li><a class="nav-link scrollto " href="#contact">Contact Us</a></li>         
-          <li><a class="nav-link scrollto" href="AdminLogin.jsp">Admin Login</a></li>
+           <li><a class="nav-link scrollto active" href="index.jsp">Home</a></li>
+           <li><a class="nav-link scrollto" href="AdminLogin.jsp">Admin Login</a></li>
            <li><a class="nav-link scrollto" href="UserLogin.jsp">User Login</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -162,7 +160,7 @@ function myFunction() {
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Charge it 2021</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>EV ChargeWay 2024</span></strong>. All Rights Reserved
       </div>
       
     </div>

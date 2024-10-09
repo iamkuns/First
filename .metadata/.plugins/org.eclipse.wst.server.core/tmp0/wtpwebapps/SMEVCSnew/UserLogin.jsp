@@ -36,7 +36,7 @@
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="logo">
-        <h1><a href="index.jsp"><span>Charge it</span></a></h1>
+        <h1><a href="index.jsp"><span>EV ChargeWay</span></a></h1>
       </div>
 
       <nav id="navbar" class="navbar">
@@ -126,7 +126,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Charge it 2021</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>EV ChargeWay 2024</span></strong>. All Rights Reserved
       </div>
       
     </div>
